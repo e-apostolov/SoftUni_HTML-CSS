@@ -1,0 +1,10 @@
+@import url(typography.css);
+
+.site-header {
+    border-bottom: 2px solid #000;
+}
+
+.site {
+    max-width: 66ch;
+    margin: 0 auto;
+}
