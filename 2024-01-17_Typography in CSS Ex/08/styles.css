@@ -1,0 +1,91 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font: 14px/1.5 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body, table {
+    font: inherit;
+}
+
+body {
+    padding: 4em;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 2em;
+    margin-bottom: 3em;
+}
+
+nav li {
+    display: block;
+    list-style: none outside;
+
+}
+
+nav a {
+    color: #369;
+}
+
+nav a i {
+    color: #000;
+}
+
+/* Button Styles */
+
+.button {
+    display: inline-block;
+    line-height: 1;
+    padding: 0.6em 1em;
+    border: 2px solid rgba(255,255,255,0.5);
+    background-color: #69A;
+    color: #fff;
+}
+
+a i {
+    margin-right: 0.5em
+}
+
+.button:hover {
+    background-color: #20c0c5;
+}
+
+.button.button-danger {
+    background-color: #a81b1b;
+}
+
+.button.button-danger:hover {
+    background-color: #e40c0c;
+}
+
+ol.todo {
+    margin-top: 3em;
+}
+
+ol.todo li {
+    display: block;
+    list-style: none outseide;
+}
+
+ol.todo li:before {
+    display: inline-block;
+    content: "\f10C";
+    font-family: "Font Awesome 6 Free";
+    margin-right: 0.5em;
+    opacity: 0.5;
+}
+
+ol.todo li.done:before {
+    content: "\f14a";
+}
