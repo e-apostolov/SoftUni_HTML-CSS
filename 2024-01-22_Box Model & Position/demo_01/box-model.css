@@ -1,0 +1,50 @@
+body{
+    padding: 2em;
+}
+
+div {
+    padding: 2em;
+    border: 1px dashed #333;
+}
+
+.outside {
+    background-color: rgba(247,180,25);
+}
+
+.border {
+    background-color: antiquewhite;
+}
+
+.padding {
+    background-color: lightgreen;
+}
+
+.content {
+    background-color: lightblue;
+}
+
+.box {
+    border: 2px solid #000;
+    margin: 2em 4em;
+    padding: 1em;
+    line-height: 1;
+    margin: 2em auto;
+    max-width: 400px; 
+}
+
+.sizing-fixed {
+    box-sizing: border-box;
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+}
+
+.sizing-normal {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+}
