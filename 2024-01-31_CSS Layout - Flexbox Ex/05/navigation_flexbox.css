@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    font-size: 16px/1.5 serif;
+    max-width: 90em;
+    margin: 0 auto;
+}
+
+body > header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0,0,0);
+}
+
+.site_header {
+    font: 2em sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+header ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+main {
+    padding-top: 0.5em;
+}
+
+h1,
+main p {
+    margin-bottom: 0.5em;
+}
