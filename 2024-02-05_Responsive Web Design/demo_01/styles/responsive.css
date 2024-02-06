@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+
+    .site {
+        flex-direction: column;
+    }
+
+    .site-header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        padding-left: 0;
+    }
+
+}
