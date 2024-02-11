@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+
+
+body {
+    font: 14px/1.5 Arial, sans-serif;
+    background-color: #CCC;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.quotes_container {
+    max-width: 90em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+    .quotes_container {
+        flex-direction: row;
+    }
+}
+
+.quotes_container .container_left,
+.quotes_container .container_right {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.quotes_container .container_left .box,
+.quotes_container .container_right .box{
+    flex: 1 0 auto;
+    container: box / inline-size;
+}
+
+.quotes_container .container_left {
+    flex: 1 0 calc(65% - 2em);
+}
+
+.quotes_container .container_right {
+    flex: 1 0 35%;
+}
+
+.quotes_container .box {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.5);
+}
+
+.box .inner {
+    flex-grow: 1;
+    background-color: white;
+    padding: 1em 1.5em;
+    display: flex;
+    gap: 2em;
+}
+
+.box .media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content p {
+    padding-bottom: 2em;
+}
+
+.quotes_container .box .author {
+    font-weight: bold;
+}
+
+.quotes_container .box .avatar {
+    width: 8em;
+    display: block;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #090;
+}
+
+.quotes_container .content:before {
+    display: block;
+    content: '\201C';
+    font-size: 4em;
+    line-height: 1;
+}
+
+@container box (max-width: 400px) {
+
+    .quotes_container .box {
+        position: relative;
+    }
+
+    .quotes_container .box .inner {
+        flex-direction: column;
+    }
+
+    .quotes_container .box .author {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
