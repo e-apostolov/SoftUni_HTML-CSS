@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+
+    <h1>Working with Forms</h1>
+
+    <h2>Search by Google</h2>
+
+    <form action="https://www.google.bg/search" method="get">
+        <label for="search_field">Search for:</label>
+        <input type="text" id="search_field" name="q">
+        <input type="submit" value="search">
+    </form> 
+
+    <h2>Radio Buttons</h2>
+    <form action="#" method="get">
+
+        <p>pick your poison</p>
+        <input type="radio" name="poison" value="option1" id="poison_option1" checked>
+        <label for="poison_option1">Beer</label>
+        <input type="radio" name="poison" value="option2" id="poison_option2">
+        <label for="poison_option2">Whiskey</label>
+        <input type="radio" name="poison" value="option3" id="poison_option3">
+        <label for="poison_option3">Vodka</label>
+        <input type="radio" name="poison" value="option4" id="poison_option4">
+        <label for="poison_option4">Wine</label>
+
+        <p>
+            <input type="submit" value="Lets go">
+        </p>
+        
+    </form> 
+
+    <h2>Check Buttons</h2>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>My first set of form elements</legend>
+            <p>pick your poison</p>
+            <input type="checkbox" name="poison2" value="poison2_optrion1" id="poison2_option1">
+            <label for="poison2_option1">Beer</label>
+            <input type="checkbox" name="poison2" value="poison2_optrion2" id="poison2_option2">
+            <label for="poison2_option2">Whiskey</label>
+            <input type="checkbox" name="poison2" value="poison2_optrion3" id="poison2_option3">
+            <label for="poison2_option3">Vodka</label>
+            <input type="checkbox" name="poison2" value="poison2_optrion4" id="poison2_option4">
+            <label for="poison2_option4">Wine</label>
+
+            <p>
+                <label for="city_select">City</label>
+                <select name="city" id="city_select">
+                    <option value="">Please pick a city</option>
+                    <option value="sfrf" selected>Sofia</option>
+                    <option value="bsks">Burgas</option>
+                    <option value="maika">Varna</option>
+                    <option value="maina">Plovdiv</option>
+                </select>
+            </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>My second set</legend>
+            <p>
+                <input type="email" required>
+            </p>
+            <p>
+                <label for="tempB">Choose a comfortable temperature:</label><br />
+                <input type="range" id="tempB" name="temp" list="values" />
+                
+                <datalist id="values">
+                  <option value="0" label="very cold!"></option>
+                  <option value="25" label="cool"></option>
+                  <option value="50" label="medium"></option>
+                  <option value="75" label="getting warm!"></option>
+                  <option value="100" label="hot!"></option>
+                </datalist>
+
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Lets go">
+        </p>
+        
+    </form> 
+
+    <form action="#">
+
+        <input type="text" name="username" id="loging-username" placeholder="username" required>
+        <input type="password" name="password" id="loging-password" placeholder="password" required>
+
+        <input type="submit" value="log-in">
+
+    </form>
+    
+</body>
+</html>
