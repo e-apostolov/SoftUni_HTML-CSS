@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 20px/1.5 "PT Sans", sans-serif;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PT", serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.site_section.banner {
+    padding-bottom: 12em;
+}
+
+.site_section.banner .container {
+    color: #FFF;
+}
+
+.site_section.banner h2 {
+    font-size: 3.4em;
+    font-weight: normal;
+    line-height: 1.26;
+    margin-bottom: 1rem;
+}
+
+.site_section.banner p {
+    font-size: 1.2em;
+    max-width: 39rem;
+}
+
+.site_section {
+    padding: 2em;
+}
+
+.site_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.site_header ul{
+    display: flex;
+    list-style: none outside;
+}
+
+.site_header ul li {
+    padding-right: 1em;
+}
+
+.site_header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.site_title a {
+    display: block;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site_section.columns {
+    border-bottom: 2px solid #EEE;
+    background: white;
+}
+
+.site_section.partners,
+.site_section.sponsors {
+    background: white;
+    text-align: center;
+}
+
+.columns_container {
+    display: flex;
+    gap: 2em;
+}
+
+.site_footer {
+    background: #171720;
+    color: white;
+}
+
+.site_footer:last-child {
+    border-top: 1px solid rgb(255,255,255,0.6)
+}
+
+.sponsors {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.sponsors ul {
+    list-style: none outside;
+}
+
+.sponsors li {
+    display: block;
+    width: 9em;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    background-color: #EEE;
+    padding: 1em;
+    border-radius: 50%;
+}
