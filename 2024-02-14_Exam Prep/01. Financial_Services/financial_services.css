@@ -1,0 +1,82 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 Poppins, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    max-width: 82.5em;
+}
+
+section main{
+    display: flex;
+    gap:1.25em;
+}
+
+section header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+section header h1 span {
+    color: #327DC4;
+}
+
+main .card {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #A4B5C0;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+main .card .media {
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+main .card .content {
+    padding: 1.3em;
+}
+
+main .card .content p{
+    margin: 1.3em 0;
+}
+
+main .card .content .button {
+    display: inline-block;
+    background: #327DC4;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #323CC4;
+    border-radius: 3em;
+    font-size: 0.8em;
+    padding: 0.5em 1em;
+    outline: 1px solid #FFF;
+}
+
