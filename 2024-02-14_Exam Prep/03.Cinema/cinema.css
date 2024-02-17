@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.5 Ubuntu, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 3em;
+
+}
+
+.container {
+    max-width: 106em;
+    margin: 0 auto;
+}
+
+.top_ribbon {
+    background-color: white;
+}
+
+.top_ribbon .container{
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.top_ribbon .container header{
+    display: flex;
+    gap: 2em;
+}
+
+.top_ribbon .site_home a {
+    text-decoration: none;
+    color: #313131;
+    font-weight: bold;
+    font-size: 2.6em;
+}
+
+.top_ribbon .site_home {
+    border-right: 3px solid #DBDBDB;
+    padding-right: 1.44em;
+}
+
+.top_ribbon .header_description {
+    color: #808090;
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 1.6em;
+}
+
+.top_ribbon nav {
+    margin-top: 1.2em;
+}
+
+.top_ribbon nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.top_ribbon nav ul li {
+    padding-right: 0.1em;
+}
+
+.top_ribbon nav ul li a{
+    text-decoration: none;
+    background: #ECECEC;
+    color: #73716E;
+    padding: 1.5em;
+}
+
+.top_ribbon nav ul a:hover{
+    background: #56DBB1;
+}
+
+.image_placeholder {
+    padding: 17em 0;
+}
+
+.image_placeholder p{
+    display: none;
+}
+
+.hero {
+    background: #56DBB1;
+    font-size: 1.1em;
+    padding: 5.2em 0em;
+}
+
+.hero p {
+    text-align: center;
+    padding: 0 2em;
+}
+
+.section_columns{
+    padding: 5.2em 0em;
+    background: #313131;
+    color: #57514B;
+
+}
+
+.section_columns h2,
+.section_columns h3 {
+    color: white;
+    text-align: center;
+    padding-bottom: 1.2em;
+}
+
+.section_columns .container{
+    display: flex;
+    gap: 2em;
+}
+
+.section_columns article {
+    flex: 1 1 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article .contents{
+    flex: 1 1 20%;
+    text-align: center;
+}
+
+article .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    aspect-ratio: 1/1;
+    background: #56DBB1;
+    margin-bottom: 1em;
+}
+
+article .media a {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+}
+
+.top article p {
+    padding-top: 1.2em;
+    border-top: 2px solid #9A9A9A;
+    text-align: center;
+    vertical-align: center;
+}
+
+.no_columns .container{
+    padding: 5.2em 0em;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no_columns h2 {
+    font-size: 2em;
+    color: #5F5F5F;
+    line-height: 1;
+}
+.no_columns p {
+    font-size: 1.11em;
+    color: #C3BCB8;
+}
+
+.no_columns a {
+    text-decoration: none;
+    color: white;
+    background: #974D1B;
+    padding: 1.22em 2.11em;
+    margin-top: 2em;
+}
+
+footer {
+    background: #1B9772;
+    padding: 4.5em 0;
+}
+
+footer p {
+    text-align: center;
+    color: #56DBAC;
+}
+
+p span {
+    color: white;
+}
