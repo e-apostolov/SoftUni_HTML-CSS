@@ -1,0 +1,144 @@
+@media (max-width: 600px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .game-world-header.container.placeholder {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .parallax-window {
+        height: auto;
+    }
+
+    .tm-header {
+        position: initial;
+    }
+
+    .row.tm-header-inner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em 1em;
+    }
+
+    .col-md-6.col-12 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tm-site-logo {
+        vertical-align: top;
+        width: 57px;
+    }
+
+    .tm-site-title {
+        font-size: 24px;
+    }
+
+    .tm-site-description {
+        font-size: 12px;
+    }
+
+    .tm-site-text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-6.col-12.tm-nav {
+        margin: 1em 0;
+    }
+
+    .col-md-6.col-12.tm-nav a{
+        font-size: 12px;
+    }
+
+    .row.tm-welcome-section {
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+        margin: 50px 20px;
+    }
+
+    .col-12.text-center.tm-section-title {
+        text-decoration: center;
+        margin: 0 auto;
+        font-size: 32px;
+        padding: 0 2em;
+        margin-bottom: 0.7em;
+    }
+
+    .tm-paging-links {
+        margin-bottom: 0;
+    }
+
+    .row.tm-gallery {
+        margin: 2px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tm-gallery-page {
+        margin: 2em;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .col-lg-3.col-md-4.col-sm-6.col-12.tm-gallery-item {
+        max-width: 100%;
+    }
+
+    .tm-gallery-title {
+        font-size: 24px;
+    }
+
+    .tm-gallery-price {
+        font-size: 24px;
+        margin-bottom: 45px;
+    }
+
+    figcaption h4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    figcaption .tm-gallery-description {
+        font-size: 14px;
+    }
+
+    .tm-cta-section.tm-section.tm-container-inner{
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .tm-cta-section.tm-section.tm-container-inner .row {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1em;
+    }
+
+    .tm-description-figure {
+        max-width: 100%;
+    }
+
+    .col-md-6 {
+        max-width: 100%;
+    }
+
+    .tm-mb-45 {
+        font-size: 16px;
+    }
+
+    .tm-footer.text-center {
+        margin-top: 20px;
+    }
+
+}
